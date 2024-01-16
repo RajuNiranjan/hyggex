@@ -16,3 +16,9 @@ body {
     #1f80eb 103.81%
   );
 }
+
+.underline-blue {
+  text-decoration: underline;
+  text-decoration-color: #06286e; /* Blue color code */
+  text-decoration-thickness: 2px; /* Increase the width of the underline */
+}

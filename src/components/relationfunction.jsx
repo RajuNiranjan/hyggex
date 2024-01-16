@@ -1,5 +1,6 @@
 import React from "react";
 import "../../src/index.css";
+import StudyQuizTestGame from "../ui/sam";
 
 const RelationFunction = () => {
   return (
@@ -12,7 +13,9 @@ const RelationFunction = () => {
       <div className="flex justify-center items-center flex-col mt-10">
         <div>
           <ul className="flex items-center justify-center capitalize text-[#696671] font-medium text-[20px] gap-[40px]">
-            <li className="font-bold text-[#06286e] ">study</li>
+            <li className="font-bold text-[#06286e] border-b-4 py-2 border-[#06286e]">
+              study
+            </li>
             <li>quiz</li>
             <li>test</li>
             <li>game</li>
