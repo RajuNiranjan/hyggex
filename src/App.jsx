@@ -10,7 +10,7 @@ const App = () => {
       <Navbar />
       <Navgation />
       <CreateFlashCard />
-      {/* <Faq /> */}
+      <Faq />
     </div>
   );
 };

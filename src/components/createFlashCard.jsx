@@ -74,7 +74,7 @@ const CreateFlashCard = () => {
           </svg>
         </div>
         <div>
-          <h1 className="text-[28px] text-gradient-to-b from-[#06286e] to-[#164ec0]">
+          <h1 className="text-[28px] bg-gradient-to-b from-[#06286e] to-[#164ec0] inline-block text-transparent bg-clip-text">
             Created Flashcard
           </h1>
         </div>
