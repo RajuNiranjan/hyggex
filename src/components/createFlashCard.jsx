@@ -3,7 +3,7 @@ import logo from "../assets/logo1.png";
 
 const CreateFlashCard = () => {
   return (
-    <div className="flex items-center justify-between">
+    <div className="flex items-center justify-between mt-24">
       <div className="flex gap-[21px] items-center">
         <div className="w-[98px] h-[100px] bg-white border flex justify-center items-center rounded-full shadow-lg">
           <img src={logo} className="w-14" alt="" />

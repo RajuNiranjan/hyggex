@@ -3,23 +3,23 @@ import "../../src/index.css";
 
 const RelationFunction = () => {
   return (
-    <div>
+    <div className="mt-14">
       <div>
         <h1 className="font-bold text-[32px] bg-gradient-to-b from-[#06286e] to-[#164ec0] inline-block text-transparent bg-clip-text">
           Relations and Functions ( Mathematics )
         </h1>
       </div>
-      <div className="flex justify-center items-center flex-col">
+      <div className="flex justify-center items-center flex-col mt-10">
         <div>
           <ul className="flex items-center justify-center capitalize text-[#696671] font-medium text-[20px] gap-[40px]">
-            <li className="font-bold text-[#06286e]">study</li>
+            <li className="font-bold text-[#06286e] ">study</li>
             <li>quiz</li>
             <li>test</li>
             <li>game</li>
             <li>other</li>
           </ul>
         </div>
-        <div className="w-[712px] h-[485px]">
+        <div className="w-[712px] h-[485px] mt-10">
           <div className="w-[712px] h-[393px] rounded-[42px] bg">
             <div className="flex justify-between px-[34px] py-10">
               <div>

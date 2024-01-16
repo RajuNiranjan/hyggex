@@ -8,21 +8,11 @@ import RelationFunction from "./components/relationfunction";
 const App = () => {
   return (
     <div className="container m-auto px-10">
-      <div className="mt-[px]">
-        <Navbar />
-      </div>
-      <div className="mt-[px]">
-        <Navgation />
-      </div>
-      <div className="mt-[px]">
-        <RelationFunction />
-      </div>
-      <div className="mt-[px]">
-        <CreateFlashCard />
-      </div>
-      <div className="mt-[px]">
-        <Faq />
-      </div>
+      <Navbar />
+      <Navgation />
+      <RelationFunction />
+      <CreateFlashCard />
+      <Faq />
     </div>
   );
 };
