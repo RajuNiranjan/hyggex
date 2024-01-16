@@ -9,7 +9,7 @@ const App = () => {
     <div className="container m-auto px-10">
       <Navbar />
       <Navgation />
-      {/* <CreateFlashCard /> */}
+      <CreateFlashCard />
       {/* <Faq /> */}
     </div>
   );

@@ -23,7 +23,7 @@ const navData = [
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center py-3 px-10">
+    <div className="flex justify-between items-center py-3 ">
       <div className="w-[150px]">
         <img src={logo} alt="logo image" className="cursor-pointer" />
       </div>
